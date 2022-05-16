@@ -1,0 +1,15 @@
+import React from 'react';
+import Slide from './Slide';
+import Data from '../home section/Data';
+import '../page/Home.css';
+
+function Hero() {
+
+  return (
+    <>
+    <Slide slides={Data}/>
+    </>
+  )
+}
+
+export default Hero
