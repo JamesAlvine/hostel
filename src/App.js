@@ -5,6 +5,7 @@ import Navbar from "./common/navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./component/page/Home";
 import About from "./component/about/About";
+import Gallery from "./component/gallery/Gallery";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/about" exact element={<About />} />
+            <Route path="/gallery"  element={<Gallery />} />
             
           </Routes>
         </>

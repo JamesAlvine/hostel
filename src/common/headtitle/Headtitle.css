@@ -1,5 +1,5 @@
 .image-heading {
-    background-image: url("../../common/image/nairofi.jpg");
+    background-image: url("../../common/image/about.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,16 +8,14 @@
     line-height: 30vh;
     position: relative;
     z-index: -2;
-}
-
-.image-heading .container {
+  }
+  .image-heading .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-}
-
-.image-heading::after {
+  }
+  .image-heading::after {
     content: "";
     position: absolute;
     top: 0;
@@ -26,27 +24,23 @@
     height: 30vh;
     width: 100%;
     z-index: -1;
-}
-
-.image-heading h1 {
+  }
+  .image-heading h1 {
     font-size: 40px;
     text-transform: capitalize;
-}
-
-.image-heading button {
+  }
+  .image-heading button {
     background: black;
     color: white;
     font-weight: 400;
     padding: 15px 30px;
     word-spacing: 5px;
-}
-
-.image-heading a {
+  }
+  .image-heading a {
     color: green;
     cursor: pointer;
-}
-
-.image-heading span {
+  }
+  .image-heading span {
     text-transform: capitalize;
     word-spacing: 30px;
-}
+  }
