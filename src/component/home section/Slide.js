@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
-
-const Slide = ({slides}) => {
+const Slide = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
 
@@ -35,7 +34,7 @@ const Slide = ({slides}) => {
               className={index === current ? "slide active" : "slide"}
               key={index}
             >
-              {index === current && <img src={slide.image}  alt="Home" />}
+              {index === current && <img src={slide.image} alt="Home" />}
             </div>
           );
         })}
@@ -44,17 +43,20 @@ const Slide = ({slides}) => {
       <section className="slide-form">
         <div className="container">
           <h2>Pata Hostel</h2>
-          <span> Search and Book Hostel</span>
+          <span> Search, find and book from anywhere</span>
 
           <form>
-            <input type="text" placeholder="Seacrh City" />
+            <input type="text" placeholder="where do you want to live" />
             <div className="flex_space">
-              <input type="date" placeholder="Check In" />
-              <input type="date" placeholder="Check Out" />
+            <select _ngcontent-c6="" class="form-control ng-pristine ng-valid ng-touched" id="hostel_type" name="sex">
+              <option _ngcontent-c6="" disabled="" selected="" value="0: undefined">Hostel type</option>
+              <option _ngcontent-c6="">Male</option><option _ngcontent-c6="">Female</option><option _ngcontent-c6="">Mixed</option>
+              </select>
+              {/* <input type="date" placeholder="Check In" />
+              <input type="date" placeholder="Check Out" /> */}
             </div>
             <div className="flex_space">
-              <input type="number" placeholder="Adult(s)(18+)" />
-              <input type="number" placeholder="Children(0- 17)" />
+              <input type="gender" placeholder="male/female" />
             </div>
             <input type="number" placeholder="Rooms" />
             <input type="Submit" value="Search" className="submit" />
@@ -65,4 +67,4 @@ const Slide = ({slides}) => {
   );
 };
 
-export default Slide
+export default Slide;

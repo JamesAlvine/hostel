@@ -3,6 +3,7 @@ import "./Navbar.css";
 import logo from "../image/logo1.jpg";
 import React, { useState } from "react"
 
+
 function Navbar() {
   const [click, setClick] = useState(false);
 
@@ -100,7 +101,9 @@ function Navbar() {
                 <i className="fas fa-phone-volume"></i>
               </div>
               <div className="text">
-                <h4>Call Us</h4>
+                <h4 onClick={()=>{
+                  window.location("./Navbar.js")
+                }}>Call Us</h4>
                 <Link to="/contact">079700960</Link>
               </div>
             </div>

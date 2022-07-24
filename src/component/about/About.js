@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import AboutCard from "./AboutCard";
-import pic2 from "../../common/image/about-img-1.jpg";
+import pic2 from "../../common/image/mn1.jpg";
 import Headtitle from "../../common/headtitle/Headtitle";
 
 function About() {
@@ -33,7 +33,7 @@ function About() {
             </button>
           </div>
           <div className="row image">
-            <img src={pic2} alt="" />
+            <img src={pic2} alt="" height= '70%' width ='90%' />
             <div className="control-btn">
               <button className="prev">
                 <i className="fas fa-play"> </i>
