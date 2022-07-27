@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../gallery/Card'
+import Card from './Card'
 import Tdata from './Tdata'
 import './Testimonial.css'
 
