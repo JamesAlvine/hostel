@@ -9,6 +9,7 @@ import Gallery from "./component/gallery/Gallery";
 import Login from "./component/login/Login";
 import Footer from "./common/footer/Footer";
 import Contact from "./component/contact/Contact";
+import HostelAgent from "./component/hostelA/HostelAgent";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/sign-in" element={<Login />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/hostel-agents" element={<HostelAgent />} />
           </Routes>
           <Footer />
         </>

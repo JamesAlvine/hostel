@@ -72,7 +72,7 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/contact">
+              <Link to="/hostel-agents">
                 <button className="primary-btn">Become Hostel agent</button>
               </Link>
             </li>
