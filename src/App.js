@@ -10,6 +10,7 @@ import Login from "./component/login/Login";
 import Footer from "./common/footer/Footer";
 import Contact from "./component/contact/Contact";
 import HostelAgent from "./component/hostelA/HostelAgent";
+import Testimonial from "./component/testimonial/Testimonial";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/sign-in" element={<Login />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/testimonial" element={<Testimonial />} />
             <Route path="/hostel-agents" element={<HostelAgent />} />
           </Routes>
           <Footer />
